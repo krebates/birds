@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+group :test, :development do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+end
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
